@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF202020</color>
+    <color name="onBackground">#FFD3D3D3</color>
+    <color name="surface">#FF282828</color>
+    <color name="onSurface">#FFFEFEFE</color>
+</resources>

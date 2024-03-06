@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:padding="@dimen/margin_medium"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/background_weather_location_item">
+
+    <TextView
+        android:id="@+id/cityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Lisbon"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dayInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="23 September, Sunday"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/cityName"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tempInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="58sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayInfo"
+        tools:text="12º" />
+
+    <TextView
+        android:id="@+id/conditionInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tempInfo"
+        app:layout_constraintStart_toEndOf="@+id/tempInfo"
+        tools:text="Heavy rain" />
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="105dp"
+        android:layout_height="106dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/cloudy" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

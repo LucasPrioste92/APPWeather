@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.APPWeather" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:textColor">@color/onBackground</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/onSurface</item>
+        <item name="colorOnPrimary">@color/onBackground</item>
+        <item name="android:textColorHint">@color/onBackground</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="colorControlNormal">@color/onSurface</item>
+        <item name="colorControlActivated">@color/onSurface</item>
+        <item name="colorControlHighlight">@color/onSurface</item>
+        <item name="editTextColor">@color/onSurface</item>
+    </style>
+</resources>
