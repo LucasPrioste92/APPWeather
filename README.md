@@ -17,6 +17,10 @@ The design of this app was inspired by several designs developed in figma by the
 * OpenWather API
 * Junit (Unit Test)
 
+## Architecture
+
+* MVVM with Clean approach
+
 ## Prints
 Main Screen             |  Detail Screen
 :-------------------------:|:-------------------------:
