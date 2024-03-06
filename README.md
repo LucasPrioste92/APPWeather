@@ -18,4 +18,6 @@ The design of this app was inspired by several designs developed in figma by the
 * Junit (Unit Test)
 
 ## Prints
-![alt text](https://github.com/LucasPrioste92/APPWeather/blob/main/images/main.png) ![alt text](https://github.com/LucasPrioste92/APPWeather/blob/main/images/detail.png)
+Main Screen             |  Detail Screen
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/LucasPrioste92/APPWeather/blob/main/images/main.png)  |  ![alt text](https://github.com/LucasPrioste92/APPWeather/blob/main/images/detail.png)
