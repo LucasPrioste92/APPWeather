@@ -16,3 +16,6 @@ The design of this app was inspired by several designs developed in figma by the
 * Dagger Hilt
 * OpenWather API
 * Junit (Unit Test)
+
+## Prints
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/LucasPrioste92/APPWeather/blob/main/images/main.png)https://github.com/LucasPrioste92/APPWeather/blob/main/images/main.png)
